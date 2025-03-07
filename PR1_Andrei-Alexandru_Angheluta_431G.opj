@@ -1,0 +1,279 @@
+(ExpressProject "ERS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\biblioteci tht\bc546.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci tht\bc556.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci tht\bd241.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci tht\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci tht\tip32.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci tht\bzx84c6v8.lib"
+        (Type "EDIF Netlist")))
+    (NoModify)
+    (File ".\ers.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Users\mirce\Desktop\ERS neg 2 T\bom.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\USERS\MIRCEA\DESKTOP\ERS5_MIRON\ERS_SIMULARE\ERS.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\ers-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\ers.bom"
+      (Type "Report"))
+    (File "..\bom.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\dc_bias.sim"
+        (DisplayName "SCHEMATIC1-dc_Bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\stabfactor.sim"
+        (DisplayName "SCHEMATIC1-stabfactor")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\output_voltage_variation.sim"
+        (DisplayName "SCHEMATIC1-Output_Voltage_Variation")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\overcurrent_protection_circuit.sim"
+        (DisplayName "SCHEMATIC1-Overcurrent_protection_circuit")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\input_voltage_variation.sim"
+        (DisplayName "SCHEMATIC1-Input_voltage_variation")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\overvoltage_protection.sim"
+        (DisplayName "SCHEMATIC1-overvoltage_protection")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\output_resistance.sim"
+        (DisplayName "SCHEMATIC1-Output_resistance")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\stability_of_the_reference_voltage.sim"
+        (DisplayName "SCHEMATIC1-stability_of_the_reference_voltage")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\stabilitate.sim"
+        (DisplayName "SCHEMATIC1-stabilitate")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\bias_point_1.sim"
+        (DisplayName "SCHEMATIC1-bias_point_1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\bias_point_2.sim"
+        (DisplayName "SCHEMATIC1-bias_point_2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\bias_point_3.sim"
+        (DisplayName "SCHEMATIC1-bias_point_3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\bias_point_4.sim"
+        (DisplayName "SCHEMATIC1-bias_point_4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\power_dissipation.sim"
+        (DisplayName "SCHEMATIC1-power_dissipation")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\ocp1.sim"
+        (DisplayName "SCHEMATIC1-OCP1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\dc_sweep1.sim"
+        (DisplayName "SCHEMATIC1-dc_sweep1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\dc_sweep2.sim"
+        (DisplayName "SCHEMATIC1-dc_sweep2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\dc_sweep3.sim"
+        (DisplayName "SCHEMATIC1-dc_sweep3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\dc_sweep4.sim"
+        (DisplayName "SCHEMATIC1-dc_sweep4")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\ers-pspicefiles\schematic1\output_voltage_level_50.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ers-pspicefiles\schematic1\output_voltage_level_50.sim"
+        (DisplayName "SCHEMATIC1-output_voltage_level_50")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (File "..\biblioteci tht\bc546.lib"
+        (DisplayName "..\biblioteci tht\bc546.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\biblioteci tht\bc556.lib"
+        (DisplayName "..\biblioteci tht\bc556.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\biblioteci tht\bd241.lib"
+        (DisplayName "..\biblioteci tht\bd241.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\biblioteci tht\bzx84c2v7.lib"
+        (DisplayName "..\biblioteci tht\bzx84c2v7.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\biblioteci tht\tip32.lib"
+        (DisplayName "..\biblioteci tht\tip32.lib")
+        (Type "PSpiceLibrary"))
+      (File "..\biblioteci tht\bzx84c6v8.lib"
+        (DisplayName "..\biblioteci tht\bzx84c6v8.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C6V8
+      (FullPartName "BZX84-C6V8.Normal")
+      (LibraryName "C:\USERS\ALEX\DESKTOP\P1\ERS2\BIBLIOTECI THT\BZX84C6V8.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName "C:\USERS\ALEX\DESKTOP\P1\ERS2\BIBLIOTECI THT\BZX84C2V7.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (BZX79C6V8/PLP
+      (FullPartName "BZX79C6V8/PLP.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PHIL_DIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD92\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (V53C9512N/SO
+      (FullPartName "V53C9512N/SO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DRAM.OLB")
+      (DeviceIndex "0"))
+    (TIP32C
+      (FullPartName "TIP32C.Normal")
+      (LibraryName "C:\USERS\MIRCE\DESKTOP\BIBLIOTECI THT\TIP32.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\BIBLIOTECI SPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V1
+      (FullPartName "BZX84-C5V1.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\BIBLIOTECI SPICE\BZX84C5V1.OLB")
+      (DeviceIndex "0"))
+    (2N1595
+      (FullPartName "2N1595.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\BIBLIOTECI SPICE\BC856B.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\BIBLIOTECI SPICE\BC846B.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C10
+      (FullPartName "BZX84-C10.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\BIBLIOTECI SPICE\BZX84C10.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (QBC807-25
+      (FullPartName "QBC807-25.Normal")
+      (LibraryName
+         "C:\USERS\MIRCEA\DESKTOP\WIEN11\BIBLIOTECI SPICE\BC807-25.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Alex\Desktop\P1\ers2\biblioteci THT")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Alex\Desktop\P1\ers2\ERS_simulare\ers.dsn")
+      (Path "Design Resources"
+         "C:\Users\Alex\Desktop\P1\ers2\ERS_simulare\ers.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 421"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1382 52 365")
+        (Scroll "0 198")
+        (Zoom "110")
+        (Occurrence "/"))
+      (Path "C:\USERS\ALEX\DESKTOP\P1\ERS2\ERS_SIMULARE\ERS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Alex"))
